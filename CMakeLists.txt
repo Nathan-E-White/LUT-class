@@ -1,0 +1,6 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.24)
+PROJECT(tLag_23)
+
+SET(CMAKE_CXX_STANDARD 23)
+
+ADD_EXECUTABLE(tLag_23 main.cpp LookupTable.c++ LookupTable.h++)
